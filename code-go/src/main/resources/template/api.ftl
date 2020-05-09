@@ -17,7 +17,7 @@ func init() {
 	controller.GetFactory().Register("/api/${smallHump(table.name)}", new(${bigHump(table.name)}))
 }
 
-// 专栏控制器
+// ${table.comment} 控制器
 type ${bigHump(table.name)} struct{}
 
 // 获取列表数据

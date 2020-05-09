@@ -48,6 +48,9 @@ public class Main {
                 map1.put("varchar", "string");
                 map1.put("int", "int64");
                 map1.put("datetime", "time.Time");
+                map1.put("date", "time.Time");
+                map1.put("text", "string");
+                map1.put("longtext", "string");
                 return map1.get(type);
             });
 
